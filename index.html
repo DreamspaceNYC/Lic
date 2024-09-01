@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Space NYC Apartment</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #4285f4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 15px;
+        }
+        .price {
+            font-size: 16px;
+            color: #34a853;
+            margin-bottom: 20px;
+        }
+        .description {
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-header {
+            background-color: #ea4335;
+            color: white;
+            padding: 10px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .amenities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .amenity-item {
+            background-color: #fbbc00;
+            padding: 5px;
+            border-radius: 2px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .map-container {
+            margin-bottom: 20px;
+        }
+        .highlight {
+            background-color: #34a853;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .contact-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-list li {
+            margin-bottom: 10px;
+        }
+        .contact-list a {
+            color: #4285f4;
+            text-decoration: none;
+        }
+        .contact-list a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+            color: #777;
+            font-size: 12px;
+        }
+        .testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .testimonial {
+            background-color: #e9c46a;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial p {
+            margin: 0;
+        }
+        .author {
+            font-style: italic;
+            color: #333;
+            margin-top: 10px;
+        }
+        .video-container, .image-container {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .video-container iframe, .image-container img {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .apply-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .apply-button:hover {
+            background-color: #357ae8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📍Jackson Avenue Apartment, Long Island City, NY 11101</h1>
+    </header>
+
+    <div class="container">
+        <p class="price">$1800/month (all utilities included)</p>
+
+        <div class="description">
+            <p>This charming one-bedroom apartment on Jackson Avenue in Long Island City offers a blend of comfort and convenience. The entrance opens into a hallway leading to a spacious kitchen, equipped with modern appliances and ample storage, perfect for both casual meals and entertaining guests.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-header">Amenities</h2>
+            <div class="amenities-grid">
+                <div class="amenity-item">🍳 Modern Kitchen</div>
+                <div class="amenity-item">🛋️ Cozy Living Room</div>
+                <div class="amenity-item">🚿 Modern Bathroom</div>
+                <div class="amenity-item">🧺 In-Unit Washer and Dryer</div>
+                <div class="amenity-item">🌇 Private Balcony</div>
+                <div class="amenity-item">🌳 Garden Views</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-header">Apartment Details</h2>
+            <p>The living room is a cozy space that accommodates a variety of furniture arrangements, allowing for a comfortable lounging area with views of the garden. Its bright atmosphere makes it an ideal spot for relaxation or hosting friends.</p>
+            <p>The queen-sized bedroom provides a tranquil retreat, complete with a private balcony for enjoying quiet mornings or unwinding after a long day. A generously sized closet ensures that storage will never be an issue.</p>
+            <p>The bathroom complements the apartment’s modern feel with its stylish design and practical features, including ample storage options.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-header">Location</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.886262124384!2d-73.94701268459196!3d40.74608207932813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259dce7d9ab99%3A0x6e6e9a3ff9535414!2sJackson%20Ave%2C%20Queens%2C%20NY%2011101%2C%20USA!5e0!3m2!1sen!2sin!4v1637174451998!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-header">Move-In Details</h2>
+            <div class="highlight">
+                <p><strong>Total move-in cost:</strong></p>
+                <ul>
+                    <li>Monthly Rent:$1800 </li>
+                    <li>Security Deposit:$1200</li>
+                    <li>Application Fee:$135 </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-header">Video Tour</h2>
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/1Tk9_B8MKdadxs_0mhJzij6i3zU11j3U1/preview" width="400" height="400" allow="autoplay"></iframe>
+                <a href="https://www.dreamspacenyc.info/apply-for-this-nycunit" target="_blank" class="apply-button">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-header">Image Gallery</h2>
+            <div class="image-container">
+                <a href="https://drive.google.com/file/d/1OZpU4V7aPC36yJQhkhjRwLVX0K0_isia/view?usp=sharing" target="_blank">
+                    <img src="https://drive.google.com/uc?export=view&id=1OZpU4V7aPC36yJQhkhjRwLVX0K0_isia" alt="Living Room">
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="https://drive.google.com/file/d/1OWXICnghQR6ZR2aJylyi4D207OjgkZiv/view?usp=sharing" target="_blank">
+                    <img src="https://drive.google.com/uc?export=view&id=1OWXICnghQR6ZR2aJylyi4D207OjgkZiv" alt="Bedroom">
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="https://drive.google.com/file/d/1Owz0k1w6ij1hJizECPlDWfMrtbHiJ9H1/view?usp=sharing" target="_blank">
+                    <img src="https://drive.google.com/uc?export=view&id=1Owz0k1w6ij1hJizECPlDWfMrtbHiJ9H1" alt="Bathroom">
+                </a>
+            </div>
+        </div>
+<html>
+<head>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007bff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid #007bff;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://drive.google.com/uc?id=1PCaX9xL5ulLjtbYl5bjrfGncsU79ZWZn" target="_blank" class="button">View Certification</a>
+
+</body>
+</html>
+        <footer>
+            <p>This apartment listing is associated with NYC Housing Department, Zillow, and StreetEasy.</p>
+        </footer>
+    </div>
+</body>
+</html>
